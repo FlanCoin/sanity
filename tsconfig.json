@@ -10,8 +10,10 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "outDir": "./dist", // Añade esta línea para especificar la salida
+    "rootDir": "./" // Opcional, para especificar el directorio raíz de los archivos fuente
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"] // Asegúrate de excluir el directorio de salida
 }
