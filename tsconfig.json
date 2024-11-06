@@ -6,14 +6,12 @@
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "Preserve",
+    "module": "preserve",
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true,
-    "outDir": "./dist", // Añade esta línea para especificar la salida
-    "rootDir": "./" // Opcional, para especificar el directorio raíz de los archivos fuente
+    "incremental": true
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "dist"] // Asegúrate de excluir el directorio de salida
+  "exclude": ["node_modules", "schemaTypes/news.js"]
 }

@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
-    "build": "npx sanity build",
+    "build": "sanity build",
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy"
   },
@@ -15,14 +15,13 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/vision": "^3.62.3",
+    "@sanity/vision": "^3.63.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sanity": "file:",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "@sanity/cli": "^3.63.0",
     "@sanity/eslint-config-studio": "^4.0.0",
     "@types/react": "^18.0.25",
     "eslint": "^8.6.0",
